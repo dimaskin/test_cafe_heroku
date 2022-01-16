@@ -1,0 +1,13 @@
+{
+  "name": "test_cafe_heroku",
+  "scripts": {
+    "test:chrome": "testcafe chrome ./tests/* --skip-js-errors",
+    "test:chrome:headless": "testcafe chrome:headless ./tests/* --skip-js-errors"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "testcafe": "^1.18.1"
+  }
+}
